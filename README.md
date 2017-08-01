@@ -9,8 +9,10 @@ You will need to acquire the permanent token from the test console at http://www
 ## Usage
 
 First create your json file to store OAuth keys by copying the example.
+
 <code>
 cd plurkAPI
+
 cp oauth_keys.json.example oauth_keys.json
 </code>
 
