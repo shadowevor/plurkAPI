@@ -1,5 +1,5 @@
 # Private OAuth App keys
-/plurkAPI/oauth_keys.json
+oauth_keys.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

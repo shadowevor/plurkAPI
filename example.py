@@ -1,10 +1,10 @@
-from plurk_oauth import plurkAPI
+from plurkAPI.plurk_oauth import plurkAPI
 import json
 from pprint import pprint
 
 #Replace the keys and secrets in oauth_key.json with your app's.
 #You can retrieve your app keys via the test tool at http://www.plurk.com/PlurkApp/
-raw_key_data = open('oauth_key.json').read()
+raw_key_data = open('oauth_keys.json').read()
 key_data = json.loads(raw_key_data)
 app_key = key_data.get('app_key')
 app_secret = key_data.get('app_secret')
