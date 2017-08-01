@@ -1,11 +1,12 @@
+# -*- coding:utf-8 -*-
+# coding:utf-8
 import oauth2 as oauth
 import urllib.parse
 import json
 
 class plurkAPI:
 	def __init__(self,key=None,secret=None,token_key=None,token_secret=None):
-		print(key,secret)
-		self.base_url = 'http://www.plurk.com'
+		self.base_url = 'https://www.plurk.com'
 		self.request_token_url = '/OAuth/request_token'
 		self.authorization_url = '/OAuth/authorize'
 		self.access_token_url = '/OAuth/access_token'

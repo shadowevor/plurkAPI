@@ -6,6 +6,16 @@ This is a [Plurk API 2.0](http://www.plurk.com/API) wrapper for Plurk bots. OAut
 
 You will need to acquire the permanent token from the test console at http://www.plurk.com/PlurkApp/.
 
+## Usage
+
+First create your json file to store OAuth keys by copying the example.
+<code>
+cd plurkAPI
+cp oauth_keys.json.example oauth_keys.json
+</code>
+
+Then replace the default value in oauth_keys.json with your own app keys and secrets.
+
 ## Examples
 example.py contains two simple examples for calling plurkAPI.
 
